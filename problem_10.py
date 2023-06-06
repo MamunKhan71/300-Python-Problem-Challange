@@ -1,8 +1,8 @@
 # Problem 10
-# Write A Python Program To Get Number From The User, And Display Table For That Number.
+# Write A Python Program to get 6 subject marks from the user and calculate total and average of that
+# marks. And display to user.
+numbers = []
+for num in range(0, 6):
+    numbers.append(float(input(f"Enter Subject {num+1} : ")))
 
-number = int(input("Number : "))
-print("You entered " + str(number))
-print("--------------")
-for i in range(1, 11):
-    print(f"{number} X {i} = {number*i}")
+print(f"Average Mark Is : {sum(numbers)/len(numbers)}")
