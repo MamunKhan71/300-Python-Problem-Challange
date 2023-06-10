@@ -6,6 +6,7 @@ from itertools import chain
 
 
 def maximum(num1, num2):
+    # To find the minimum, simply just place < sign in place of > sign
     if num1 > num2:
         return num1
     else:
