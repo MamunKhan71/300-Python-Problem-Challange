@@ -9,6 +9,7 @@ def Multiplier(num_lst):
         mulList *= num
     return mulList
 
+
 # For Addition
 def Adder(num_lst):
     addList = int(0)
@@ -20,4 +21,3 @@ def Adder(num_lst):
 num_list = [int(input(f"Enter Number {_} : ")) for _ in range(1, 6)]
 print(f"Multiplication : {Multiplier(num_list)}")
 print(f"Addition : {Adder(num_list)}")
-
