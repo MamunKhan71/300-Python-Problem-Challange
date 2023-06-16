@@ -1,4 +1,4 @@
-# Problem 59
+# Problem 56_1
 # Write A Python Program To Make A Decimal To Binary Conversion Calculator
 from math import floor
 inpt = int(input("Enter the decimal number: "))
