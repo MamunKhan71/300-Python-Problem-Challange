@@ -1,10 +1,9 @@
 # Problem 59
 # Write A Python Program To Make A Decimal To Binary Conversion Calculator
 from math import floor
-reminder = []
-inpt = int(10)
-while inpt/2 != 0:
-    reminder.append(str(inpt % 2))
-    inpt = int(floor(inpt/2))
-
-print(''.join(reversed(reminder)))
+inpt = int(input("Enter the decimal number: "))
+binary = ""
+while inpt/2 > 0:
+    binary = str(inpt % 2) + binary
+    inpt //= 2
+print(f"Binary : {binary}")
