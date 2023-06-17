@@ -1,10 +1,12 @@
 # Problem 95
-# Write Python Program To Find Force Of A Man On A Object Which Have
-# Mass And Acceleration. Get Mass And Acceleration From User
-# Formula:
-# F = mass * acceleration (ma)
-mass = int(input("Enter the mass: "))
-acceleration = int(input("Enter the acceleration: "))
-force = float(mass*acceleration)
-print(f"Force = {force} kg-m/s²")
+# Write Python Program To Get Number From User To Display Table In
+# Reverse Order
+# Example:
+# 2* 10 = 20
+# 2 * 09 -18
+# And so on
 
+inpt = int(input('Number: '))
+
+for num in range(10, 0, -1):
+    print(f"{inpt} X {num} = {inpt*num}")
