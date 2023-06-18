@@ -1,7 +1,7 @@
-# Problem 104
-# Write A Python Program To Get Any File With Extension, To Display Only That File Extension
-import os.path
+# Problem 105
+# Write A Python Program To Get Temperature In Fahrenheit, To Convert Into Centigrade And Kelvin
 
-inpt = input("Enter the file name with extension: ")
-file_name, file_extension = os.path.splitext(inpt)
-print(f"The extension of the file is : {file_extension}")
+temperF = float(input("Temp(f): "))
+centigrade = (5/9 * (temperF-32))
+kelvin = ((temperF + 459.67) * 5/9)
+print(f"Centigrade : {centigrade}\nKelvin: {kelvin}")
