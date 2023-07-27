@@ -5,6 +5,8 @@ import pandas as pd
 
 data = pd.read_excel("xls.xlsx")
 # Sum of the selected column
-print(data['Orders'].sum())
+print(f"Sum : {data['Orders'].sum()}")
 # Product of the selected column
-print(data['Orders'].prod())
+print(f"Product : {data['Orders'].prod()}")
+# Count of the selected column
+print(f"Total Value : {data['Orders'].count()}")
